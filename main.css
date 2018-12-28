@@ -1,0 +1,161 @@
+.about{
+	column-count: 2;
+}
+
+.main{
+	horizontal-align: center;
+	background-color: white;
+
+}
+
+.headshot{
+	padding-left: 30%;
+}
+
+.bio{
+	text-align: left;
+	color: black;
+	padding-top: 10%;
+	padding-right: 10%;
+	font-size: 18px;
+	text-align: left;
+}
+
+.contact{
+	padding-top: 20%;
+}
+
+
+li{
+	float: left;
+	list-style-type: none
+
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 5px;
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+li:hover a{
+
+	opacity: 0.8;
+	color: rgba(0,0,0,.3);
+	background-color: white;
+}
+
+
+
+ul {
+	font-size: 24;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    background-color: black;
+    color: white;
+}
+
+#title{
+	text-align: center;
+	display: block;
+	padding: 14px 25px;
+	background-color: white;
+	color: black;
+}
+
+.dark{
+	column-count: 2;
+}
+
+.dark:hover{
+    background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,.7));
+}
+
+.dark:hover img{
+	opacity: 1;
+
+}
+
+.dark .info p{
+	padding-top: 10px;
+	color:white;
+	
+
+	margin: 4%;
+}
+
+.dark .info p .logline{
+	padding-top: 0px;
+	
+}
+
+.dark:hover .info p{
+	color:white;
+}
+
+.dark .info{
+	
+	row-count: 3;
+}
+
+.dark .info .download{
+
+	text-align: center; 
+	padding-top: 10px;
+
+}
+
+.dark .info .download:hover{
+	text-decoration: none;
+	
+	
+}
+
+.dark .info .download-button{
+	border-collapse: separate;
+	text-decoration: none;
+	color: white;
+	border: 3px solid white;
+	border-radius: 2px;
+	border-height: 4px;
+	border-left: 4px;
+	border-right: 4px;
+	opacity: .5;
+	padding: 5px;
+	
+}
+
+.dark .info .download-button:hover{
+	opacity: 1;
+	border: 3px solid green;
+	border-bottom: 4px;
+	border-top: 4px;
+	color: green;
+}
+
+.building{
+	font-size: 40;
+	color: white;
+	height: 100%;
+}
+
+.building:hover{
+	background-color: black;
+	vertical-align: center;
+	padding-top: 50px;
+}
+
+* {
+	text-
+	color: white;
+ 	font-size: 100%;
+ 	font-family: Arial;
+}

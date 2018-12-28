@@ -1,0 +1,81 @@
+<html>
+
+	<head>
+	 	<link rel="stylesheet" href="main.css">
+	 	<script>
+	 		function myFunction(){
+	 			window.location = "https://humblebundle.com";
+	 		}
+	 		function toggleInfo(elem){
+	 			var a = document.getElementById(elem.id);
+	 			var b = a.firstElementChild;
+	 			var c = b.nextElementSibling;
+			    if (c.style.display === "none") {
+			        c.style.display = "block";
+			        a.style.background = "black";
+			    } else {
+			        c.style.display = "none";
+			        a.style.background = "white";
+			    }
+	 		}
+	 		
+	 	</script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 	<script>
+
+	 	</script>
+	</head>
+
+	<div class="header_class">
+		<ul>
+			<li id="title">Evan Brisita 
+			<li id="nav_list"><a href="index.html">Bio</a>
+			<li id="nav_list"><a href="games.html">Games</a>
+			<li id="nav_list"><a href="resumes/EvanBrisitaGDResume.pdf">Game Resume</a>
+			<li id="nav_list"><a href="resumes/EvanBrisitaResume.pdf">Engineering Resume</a>
+			<!--
+
+			<li id="nav_list"><a href="https://humblebundle.com">Roll a Ball</a>
+			<li id="nav_list"><a href="https://humblebundle.com">Scrappy Pappies</a>
+			<li id="nav_list"><a href="https://humblebundle.com">Beard Fortress 2</a>
+			-->
+		</ul>
+	</div>
+
+	<body>
+		
+		<div class="dark" id="title2" >
+			<img id="splash" src="images/scrappypappies/ScrappyPappies (1).png" alt="Scrappy Pappies" align="middle" width="70%">
+			<div class="info">
+				<p class="logline">
+					Scrappy Pappies is a 2v2 arena match where you collect scrap with your trusty wrench to build your rocket to the moon! 
+				</p>
+				<p>
+					-Requires 4 Controllers
+				</p>
+				<div class="download">
+					<a class="download-button" href="downloads/ScrappyPappies_ShowcaseBuild.zip" download="ScrappyPappies">Download Game</a>
+				</div>
+			</div>
+		</div>
+		<div class="dark" id="title2" >
+			<img id="splash" src="images/chainofcommand/ChainOfCommand (1).png" alt="Chain Of Command" align="middle" width="70%">
+			<div class="info">
+				<p class="logline">
+					Chain of Command is a 1v1, turn-based space battle where you send commands on a 1 turn delay. Plan ahead, fire huge lazers, and out think your opponent to destroy their mothership and secure victory!
+				</p>
+				<p>
+					-Requires Keyboard
+				</p>
+				<div class="download">
+					<a class="download-button" href="downloads/ChainOfCommand.zip" download="ChainOfCommand">Download Game</a>
+				</div>
+			</div>
+		</div>
+		<div class="building" align="middle">
+			Under Construction!
+		</div>
+		
+	</body>
+	
+</html>

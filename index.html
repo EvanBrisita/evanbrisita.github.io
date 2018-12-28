@@ -1,0 +1,69 @@
+<html>
+
+	<head>
+	 	<link rel="stylesheet" href="main.css">
+	 	<script>
+	 		function myFunction(){
+	 			window.location = "https://humblebundle.com";
+	 		}
+	 		function toggleInfo(elem){
+	 			var a = document.getElementById(elem.id);
+	 			var b = a.firstElementChild;
+	 			var c = b.nextElementSibling;
+			    if (c.style.display === "none") {
+			        c.style.display = "block";
+			        a.style.background = "black";
+			    } else {
+			        c.style.display = "none";
+			        a.style.background = "white";
+			    }
+	 		}
+	 		
+	 	</script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 	<script>
+
+	 	</script>
+	</head>
+
+	<div class="header_class">
+		<ul>
+			<li id="title">Evan Brisita 
+			
+			<li id="nav_list"><a href="index.html">Bio</a>
+			<li id="nav_list"><a href="games.html">Games</a>
+			<li id="nav_list"><a href="resumes/EvanBrisitaGDResume.pdf">Game Resume</a>
+			<li id="nav_list"><a href="resumes/EvanBrisitaResume.pdf">Engineering Resume</a>
+			<!--
+
+			<li id="nav_list"><a href="https://humblebundle.com">Roll a Ball</a>
+			<li id="nav_list"><a href="https://humblebundle.com">Scrappy Pappies</a>
+			<li id="nav_list"><a href="https://humblebundle.com">Beard Fortress 2</a>
+			-->
+		</ul>
+	</div>
+
+	<body class="main">
+		
+		<div class="about">
+			<div class="headshot">
+				<img id="splash" src="images/profile/headshot.png" alt="My Face" width="80%">
+			</div>
+			<div class="bio">
+				<h2>Welcome!</h2>
+				<p>
+					My name is Evan Brisita and I am currently a Junior in Computer Science Engineering at the University of Michigan.
+					I have been programming ever since I bought my first book on Java, back in middle school, and since then I have enjoyed pushing
+					my technical abilities and expanding my comfort-zone. For example, this portfolio website was built from the ground up in HTML, CSS, and Javascript. Along with programming, I have a passion for art and have made a majority of the assets in the games you can see here. I still have several projects and improvements to add to this site, but I hope you enjoy my current library of games and find the information you need from my resume. I am currently looking for a full time position!
+				</p>
+			</div>
+			
+		</div>
+
+		<div class="contact">
+			<h2 align="center"> Email: brisitae@umich.edu </h2>
+		</div>
+		
+	</body>
+	
+</html>
