@@ -84,6 +84,23 @@ ul {
 
 }
 
+.dark:hover .info{
+	opacity: 1;
+}
+
+.dark .info{
+	opacity: 0;
+}
+
+.dark:hover .info{
+	opacity: 1;
+}
+
+.itch{
+	height:105;
+	width:350;
+}
+
 .dark .info p{
 	padding-top: 10px;
 	color:white;
