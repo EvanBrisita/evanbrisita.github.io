@@ -17,6 +17,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 32px;
+	
 }
 
 #bracket{
@@ -24,6 +25,7 @@
 	text-align: right;
 	background-color: white;
 	font-size: 32px;
+	padding-bottom: 1%;
 }
 
 .title_list{
@@ -35,6 +37,14 @@
 	font-size: 32px;
 }
 
+.header_class{
+	
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	
+}
+
 #footer{
 	text-align: left;
 	background-color: white;
@@ -43,11 +53,15 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 32px;
+	padding-top: 1%;
 }
 
 .nav_group{
 	border: 5px solid black;
 	border-bottom: 0px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 li a{
@@ -80,13 +94,6 @@ html{
 	min-width: 1000px;
 }
 
-.header_class{
-	margin-left: auto;
-	margin-right: auto;
-	float: center;
-}
-
-
 
 body{
 	min-width: 30%;
@@ -94,6 +101,10 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+.pdf{
+	width: 100%; height: 70%;
 }
 
 @media only screen and (max-device-width: 1200px) {
@@ -107,6 +118,10 @@ body{
 		min-width: 30%;
 		max-width: 90%;
 	}
+
+	.pdf{
+		width: 100%; height: 80%;
+	}
 }
 
 .about{
@@ -115,10 +130,13 @@ body{
 	margin-right: auto;
 	border: 5px solid black;
 	padding-bottom: 1%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .headshot{
-
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -131,6 +149,7 @@ body{
 	text-align: left;
 	padding-right: 1%;
 	padding-left: 1%;
+	width: 90%;
 }
 
 .contact{
@@ -140,15 +159,18 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
 .dark{
-	border: 5px solid black;
 	column-count: 1;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
+	width: 100%;
 }
 
 .none:hover{
@@ -156,6 +178,9 @@ body{
 }
 
 .dark img{
+	border: 5px solid black;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 }
 
@@ -169,14 +194,15 @@ body{
 
 .dark .info{
 	opacity: 1;
-}
-
-.dark:hover .info{
-	opacity: 1;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border: 5px solid black;
+	border-top: 0px;
+	padding-top: 1%;
 }
 
 .dark .info p{
-	padding-top: 10px;
 	color: black;
 	margin: 4%;
 }
@@ -205,21 +231,10 @@ body{
 	color: black;
 }
 
-.dark .info{
-	
-	row-count: 3;
-}
-
 .dark .info .download{
 	text-align: center; 
 	padding-top: 10px;
 	padding-bottom: 25px;
-}
-
-.dark .info .download:hover{
-	text-decoration: none;
-	
-	
 }
 
 .building{
